@@ -1,0 +1,227 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    background-color: black;
+    color: white;
+}
+
+/*Navigation Bar*/
+.one {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    height: 50px;
+    overflow: hidden;
+}
+
+.one a {
+    color: white;
+    text-decoration: none;
+    float: left;
+    padding: 10px;
+    overflow: hidden;
+    word-spacing: 6px;
+    letter-spacing: 3px;
+}
+
+.two {
+    background-color: black;
+    width: 100%;
+    display: inline-block;
+}
+
+.four {
+    margin-right: 30px;
+    float: right;
+}
+
+/*END navigation bar*/
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.five {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    letter-spacing: 4px;
+}
+
+.six {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 16px;
+    text-align: center;
+}
+
+.transbox {
+    padding: 10px;
+    background-color: black;
+    border: 1px;
+    opacity: 0.6;
+}
+
+/*project starts*/
+
+.project h3 {
+    margin-top: 50px;
+    font-size: 23px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.gallary {
+    margin: 20px 0 0 10px;
+    float: left;
+    width: 350px;
+}
+
+.gallary img {
+    border: 1px;
+    max-width: 100%;
+    height: auto;
+}
+
+.relative {
+    width: 24%;
+    position: relative;
+    overflow: hidden;
+    font-family: Bookman Old Style;
+    margin-left: 10px;
+    margin-bottom: 16px;
+}
+
+.rowpadding {
+    padding: 0 16px;
+}
+
+.absolute {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+    color: whitesmoke;
+    padding: 0 10px 2px 0;
+    text-align: center;
+}
+
+.absolute1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+    color: whitesmoke;
+    padding: 6px 10px;
+}
+
+/*Project ENDS*/
+
+/*About Starts*/
+.about h3 {
+    margin-top: 20px;
+    font-size: 23px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.owner {
+    border: 1px;
+    padding: 10px;
+    margin: 0;
+    float: left;
+    width: 23%;
+}
+
+.num {
+    border: solid;
+    background-color: grey;
+    padding: 5px;
+    text-align: center;
+}
+
+.num:hover {
+    background-color: #333;
+}
+
+/*About ENDS*/
+
+/*Contact Starts*/
+.contact h3 {
+    margin-top: 20px;
+    font-size: 23px;
+}
+
+input {
+    margin-top: 15px;
+    color: white;
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px;
+    background-color: #333;
+    font-size: 16px;
+    padding: 10px 24px;
+    border-radius: 2px;
+}
+
+button {
+    border: 1px;
+    margin-top: 15px;
+    margin-left: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #333;
+}
+
+/*@media screen and (max-width:650px) {
+    .four {
+        display: none;
+    }
+
+    .relative {
+        width: 95%;
+    }
+
+    .owner {
+        width: 90%;
+        margin-top: 5%;
+    }
+
+    input {
+        width: 95%;
+    }
+}*/
+@media screen and (max-width:950px) {
+    .relative {
+        width: 95%;
+    }
+
+    .owner {
+        width: 95%;
+    }
+
+    input {
+        width: 97%;
+    }
+}
